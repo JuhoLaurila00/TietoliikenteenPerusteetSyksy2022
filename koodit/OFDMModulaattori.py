@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 taajuustaso = np.zeros((128),dtype=complex)
+j = complex(0,1)
 taajuustaso[3] = complex(2,2);  # Tässä on nyt moduloitu yksi alikantoaalto
 # Moduloi tähän myös alikantoaallot 10 ja 30 QPSK-modulaatiota käyttäen
 # Eli tarkoittaa siis sitä, että sinulla on käytettävissäsi 00 => 1+j, 11 => -1-j, 01 => -1+j ja 
